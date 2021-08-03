@@ -1,0 +1,33 @@
+body {
+    background-color: #733D51;
+    /* background: no-repeat center/100% url(img/bg.jpg); */
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    margin-top: 5%;
+}
+
+/* diego-ph-BCuxVP5WEsU-unsplash */
+/* Photo by <a href="https://unsplash.com/@jdiegoph?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Diego PH</a> on <a href="https://unsplash.com/s/photos/sky?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+  
+div {
+    display: inline-block;
+    width: 4.8%;
+    height: 4.8%;
+    margin: 0.1%;
+    background-color: #F2BBC9;
+    transition: background-color 2s 3s;
+    border: none;
+    border-radius: 11px;
+}
+
+.on {
+    background-color: #BF5065;
+    transition: background-color 0s 0s;
+}
+
+
+/* Idea: 색 변하는 속도를 조절할 수 있는 버튼 추가하면 좋겠다 */
+/* Idea: 이 프로젝트 발전시켜서 게임 만들어도 재밌겠다.
+버튼들이 일정 시간마다 랜덤하게 색이 변하고, 색이 변한 버튼을 클릭하면 점수가 올라감. 
+플레이 시간 30초 정도. 점수 공유 가능. 단계는 5단계 정도. */
